@@ -1,0 +1,27 @@
+.NavLink ul{
+    display: flex;
+    flex-direction: row;
+    
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(133, 133, 133);
+    justify-content: center;
+}
+.NavLink ul li{
+    margin: 14px;
+    /* background-color: rgb(240, 194, 113);
+    border-radius:4px; */
+
+}
+.link{
+    padding:4px;
+    padding-left:7px;
+    padding-right:8px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius:2px;
+}
+.link:hover{
+    background-color: rgb(167, 244, 90);
+}
