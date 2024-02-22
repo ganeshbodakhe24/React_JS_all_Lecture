@@ -22,7 +22,7 @@ root.render(
     {/* all routing present in main component  */}
     {/* <Main></Main> */}
     {/* protected routing present in Login_main conmponent */}
-    <Login_main></Login_main>
+    {/* <Login_main></Login_main> */}
     {/* <App /> */}
     {/* <EventHandling></EventHandling> */}
     {/* <UseState_function></UseState_function> */}

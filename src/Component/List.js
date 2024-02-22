@@ -43,6 +43,7 @@ import AS_45_uncontrole_by_ref_and_get_element from './AS_45_uncontrole_by_ref_a
 import AS_46_High_order_component from './AS_46_High_order_component';
 import AS_47_Routing from './AS_47_Routin';
 import AS_49_parents from './AS_49_Parent';
+import AS_50_dynamic_routing_parent from './AS_50_dynamic_routing_parent';
 import AS_51_fetch_api from './AS_51_fetch_api';
 import AS_51_fetch_api_from_database from './AS_51_fetch_api_from_database';
 
@@ -55,11 +56,17 @@ import AS_56_update_api from './AS_56_update_api';
 import AS_57_pre_value_of_state from './AS_57_pre_value_of_state';
 import AS_58_last_props_parent from './AS_58_last_props_parents';
 import AS_58_object_in_useState from './AS_58_object_in_useState';
-import AS_50_dynamic_routing_parent from './AS_50_dynamic_routing_parent';
+import AS_60_context_api_parent from './AS_60_context_api_parent';
+
+
+// another additional lecturs
+import AS_61_useMemo from './AS_61_useMemo';
+import AS_62_callback from './AS_62_callback';
 // import As_20
 function List() {
     const [name, changeName] = useState("ganesh");
     const [className, changeprops] = useState("ganesh");
+
     return (
         <>
             {/* 13_class pass props */}
@@ -211,7 +218,18 @@ function List() {
 
               {/* object (list of data) present in useState and update this  data */}
               {/* <AS_58_object_in_useState></AS_58_object_in_useState> */}
-            </>
+
+
+
+              {/* context api use as redux power of redux and context api is almost same */}
+              {/* <AS_60_context_api_parent></AS_60_context_api_parent> */}
+              
+              {/* use memo to increase efficiency  */}
+              {/* <AS_61_useMemo></AS_61_useMemo> */}
+
+              {/* use call back to inc efficiency */}
+              <AS_62_callback></AS_62_callback>
+           </>
 
 
     )
